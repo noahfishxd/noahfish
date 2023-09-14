@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.main-foot {
+  background-color: rgba(8, 8, 14, 0.6);
+  border-radius: 3px;
+  opacity: 0.7;
+  padding: 0.5rem;
+}
+
+.main-foot-words {
+  margin: auto;
+  text-align: center;
+  color: rgb(165, 165, 165);
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.common-width {
+  max-width: 60%;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .common-width {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .common-width {
+    padding: 0 5rem;
+  }
+}
+

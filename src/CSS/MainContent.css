@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.main-content {
+  background-color: rgba(8, 8, 14, 0.6);
+  border-radius: 3px;
+  opacity: 0.7;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content-icons {
+  margin-bottom: 5rem;
+}
+
+.main-content-h1 {
+  color: rgb(165, 165, 165);
+  margin-bottom: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-content-p {
+  color: rgb(165, 165, 165);
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.icon-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon-white {
+  color: white;
+}
