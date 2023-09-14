@@ -19,6 +19,15 @@
       content="Website about me, Noah. I am a full stack web developer and this is my portfolio."
     />
     <title>noahfish.dev | Welcome!</title>
+    <script>
+      // Look for a 'redirect' query parameter and navigate to it
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirect = urlParams.get("redirect");
+
+      if (redirect) {
+        window.history.replaceState({}, null, redirect);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
