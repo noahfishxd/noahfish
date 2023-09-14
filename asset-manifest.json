@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/noahfish/static/css/main.17c1e962.css",
-    "main.js": "/noahfish/static/js/main.8ff6aca3.js",
-    "static/media/fa-solid-900.ttf": "/noahfish/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/fa-brands-400.ttf": "/noahfish/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/noahfish/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/fa-brands-400.woff2": "/noahfish/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/noahfish/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/fa-regular-400.woff2": "/noahfish/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/noahfish/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/noahfish/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "index.html": "/noahfish/index.html",
-    "main.17c1e962.css.map": "/noahfish/static/css/main.17c1e962.css.map",
-    "main.8ff6aca3.js.map": "/noahfish/static/js/main.8ff6aca3.js.map"
+    "main.css": "/static/css/main.fd1bb751.css",
+    "main.js": "/static/js/main.aa885bb3.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/index.html",
+    "main.fd1bb751.css.map": "/static/css/main.fd1bb751.css.map",
+    "main.aa885bb3.js.map": "/static/js/main.aa885bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c1e962.css",
-    "static/js/main.8ff6aca3.js"
+    "static/css/main.fd1bb751.css",
+    "static/js/main.aa885bb3.js"
   ]
 }
