@@ -62,6 +62,15 @@ const MainNav = () => {
                 <span className="nav-text">Twitter</span>
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="/Portfolio"
+              >
+                <i class="fas fa-briefcase fa-2x"></i>
+                <span className="nav-text">Portfolio</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

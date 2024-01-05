@@ -2,6 +2,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: rgb(165, 165, 165);
 }
 
 .main-container {
@@ -9,19 +10,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .common-width {
-  max-width: 60%;
+  max-width: 100%;
   margin: auto;
   padding: 0 2rem;
-}
-
-@media screen and (max-width: 767px) {
-  .common-width {
-    padding: 0 1rem;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -29,4 +24,3 @@ body {
     padding: 0 5rem;
   }
 }
-

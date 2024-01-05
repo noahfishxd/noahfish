@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.portfolio {
+  margin-top: 5rem;
+}
+
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #14141d;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5rem;
+}
+
+.head-portfolio {
+  margin-bottom: 5rem;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-links {
+  color: rgb(165, 165, 165);
+  position: relative;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: rgba(8, 8, 14, 0.6);
+  -webkit-box-shadow: 5px 5px 10px rgba(8, 8, 14, 0.6),
+    -5px -5px 10px rgba(8, 8, 20, 0.6);
+  box-shadow: 5px 5px 10px rgba(8, 8, 14, 0.6),
+    -5px -5px 10px rgba(8, 8, 20, 0.6);
+  border-radius: 5px;
+  color: rgb(165, 165, 165);
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #6e6d6c, #b5b5b5, #0e0e0e);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #6e6d6c, #b5b5b5, #0e0e0e);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}

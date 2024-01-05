@@ -10,9 +10,9 @@ const Main = () => {
     <>
       <div className="bg"></div>
       <div className="main-container">
-        <section class="wrapper">
-          <div class="top">noahfish.dev</div>
-          <div class="bottom" aria-hidden="true">
+        <section className="wrapper">
+          <div className="top">noahfish.dev</div>
+          <div className="bottom" aria-hidden="true">
             noahfish.dev
           </div>
         </section>
@@ -22,7 +22,6 @@ const Main = () => {
           <MainFoot />
         </div>
       </div>
-      \
     </>
   );
 };

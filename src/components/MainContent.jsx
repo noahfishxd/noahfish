@@ -4,31 +4,23 @@ import {
   faCss3,
   faHtml5,
   faReact,
-  faNode,
+  faJs,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase, faE, faX } from "@fortawesome/free-solid-svg-icons";
 
 const MainContent = () => {
   return (
     <div className="main-content">
       <div className="center-content">
         <div className="main-content-icons">
-          <a className="icon-container" href="https://www.mongodb.com/">
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="icon-white"
-              size="lg"
-            />
-          </a>
-          <a className="icon-container" href="https://expressjs.com/">
-            <FontAwesomeIcon icon={faE} className="icon-white" size="lg" />
-            <FontAwesomeIcon icon={faX} className="icon-white" size="lg" />
+          <a className="icon-container" href="https://www.python.org/">
+            <FontAwesomeIcon icon={faPython} className="icon-white" size="lg" />
           </a>
           <a className="icon-container" href="https://react.dev/">
             <FontAwesomeIcon icon={faReact} className="icon-white" size="lg" />
           </a>
-          <a className="icon-container" href="https://nodejs.org/en">
-            <FontAwesomeIcon icon={faNode} className="icon-white" size="lg" />
+          <a className="icon-container" href="https://www.javascript.com/">
+            <FontAwesomeIcon icon={faJs} className="icon-white" size="lg" />
           </a>
           <a
             className="icon-container"

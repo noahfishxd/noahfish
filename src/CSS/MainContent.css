@@ -35,8 +35,8 @@
 
 .main-content-p {
   color: rgb(165, 165, 165);
-  margin-bottom: 1rem;
   font-family: "Open Sans", sans-serif;
+  margin: 1rem;
 }
 
 .icon-container {
