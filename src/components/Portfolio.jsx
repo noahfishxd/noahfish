@@ -30,7 +30,7 @@ const Portfolio = () => {
               <h3>Completion of CS50</h3>
               <p>
                 My journey into computer science began when I decided to take a
-                year off from college, as I realized that economics was not as
+                year off from college after realizing that economics was not as
                 fulfilling as I had anticipated. During this period of
                 exploration and self-discovery, I enrolled in Harvard's CS50
                 course, which I successfully completed in 2022. This experience
@@ -49,9 +49,9 @@ const Portfolio = () => {
             <div className="timeline-component timeline-content">
               <h3>Senator Stock Parser</h3>
               <p>
-                A python program i made which parses the HTML of the senate
-                financal discloser website to gather data for reasearch on
-                senate trading activity.
+                A Python program I developed parses the HTML of the Senate
+                financial disclosure website to gather data for research on
+                Senate trading activity.
               </p>
               <a
                 className="portfolio-links"
@@ -76,9 +76,9 @@ const Portfolio = () => {
             <div className="timeline-component timeline-content">
               <h3>Adblock and VPN Guide</h3>
               <p>
-                A website i decided to make to inform many ill informed about
-                ways to get around the intrusive anti-adblocking JS that youtube
-                implemented into their platform.
+                A website I created aims to educate many who are misinformed
+                about methods to circumvent the intrusive anti-adblocking
+                JavaScript that YouTube has implemented into their platform.
               </p>
               <a
                 className="portfolio-links"
